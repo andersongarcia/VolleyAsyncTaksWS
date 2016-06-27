@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AsyncTaskWS com Volley</string>
+    <string name="texto_informacao">
+    Clique no botão abaixo para preencher a tela com informações adquiridas nos Web Services
+    </string>
+    <string name="texto_botao">Acessar Web Services</string>
+    <string name="label_URL">Digite a URL</string>
+    <string name="msg_erro_dados">Erro na leitura dos dados. Confira a URL!</string>
+</resources>
