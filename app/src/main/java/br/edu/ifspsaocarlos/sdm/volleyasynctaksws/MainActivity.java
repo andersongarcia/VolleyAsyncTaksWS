@@ -69,7 +69,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                                 public void onResponse(JSONObject s) {
                                     try {
                                         Log.d("REQUEST", "onResponse: " + s);
-                                        jsonObject = new JSONObject(s.toString());
+                                        //jsonObject = new JSONObject(s.toString());
                                     }
                                     catch (Exception e){
                                         Toast.makeText(MainActivity.this, "Erro na conversão de objeto JSON!", Toast.LENGTH_SHORT).show();
